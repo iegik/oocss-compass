@@ -1,0 +1,50 @@
+/*add some positioning helper class*/
+
+.fly_l {
+  float: left; }
+
+.fly_r {
+  float: right; }
+
+.pin_tl {
+  top: 0;
+  left: 0; }
+
+.pin_tr {
+  top: 0;
+  right: 0; }
+
+.pin_t {
+  top: 0; }
+
+.pin_b {
+  bottom: 0; }
+
+.pin_l {
+  left: 0; }
+
+.pin_r {
+  right: 0; }
+
+.pin_bl {
+  bottom: 0;
+  left: 0; }
+
+.pin_br {
+  bottom: 0;
+  right: 0; }
+
+.clear_all {
+  clear: both; }
+
+.clear_l {
+  clear: left; }
+
+.clear_r {
+  clear: right; }
+
+.abs {
+  position: absolute; }
+
+.rel {
+  position: relative; }

@@ -1,0 +1,14 @@
+/* ====== media (requires mod.css) ====== */
+
+.media {
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+  .img {
+    float: left;
+    /*margin-right: 10px;*/
+    img {
+      display: block; } }
+  .imgExt {
+    float: right;
+    /*margin-left: 10px;*/ } }

@@ -1,0 +1,111 @@
+body {
+  font-family: "Myriad Pro", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #222; }
+
+/* **************** CONTENT OBJECTS ***************** */
+
+/* ====== Elements ====== */
+
+img {
+  display: block; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+hr {
+  border: 5px solid #e2e2e2;
+  border-width: 0 0 5px 0;
+  margin: 20px 10px 10px 10px; }
+
+code {
+  color: #0B8C8F; }
+
+.important a {
+  font-weight: bold; }
+
+/* what is this? */
+/* links */
+
+a {
+  color: #2c4460;
+  text-decoration: none;
+  &:focus, &:hover {
+    text-decoration: underline; }
+  &:focus {
+    background-color: #FFFFCC; }
+  &:visited {
+    color: #005a9c; } }
+
+/*because mose of them we now use ol or ul for navigation purpose, we don't use
+it for pure list purpose, for this kind of purpose we need to add a class simpleList*/
+/* ====== Lists ======*/
+/*because ol li, ul li style is reset in libraries.css, we need use
+simpleList to add it here.*/
+/* numbered list */
+
+ol.simpleList li {
+  list-style-type: decimal;
+  margin-left: 40px; }
+
+/* standard list */
+
+ul.simpleList li {
+  list-style-type: disc;
+  margin-left: 40px; }
+
+/*the following content construct are very biased, use it if you want*/
+/* ====== blockquote ====== */
+
+cite {
+  display: block;
+  text-align: right;
+  padding-top: 10px; }
+
+/* ====== callout ====== */
+
+.callout {
+  font-size: 189%;
+  color: #999999;
+  font-style: italic;
+  cite {
+    display: block;
+    text-align: right;
+    padding-top: 30px;
+    font-size: 69.25%; }
+  span {
+    &.quot {
+      font-size: 500%;
+      vertical-align: sub;
+      color: #e2e2e2;
+      line-height: 25px;
+      font-weight: bold; }
+    &.quotLast {
+      vertical-align: middle; } } }
+
+/* ====== image treatments (get more from jason santa maria) ====== */
+
+.caption {
+  font-size: 13px;
+  color: #666666;
+  font-style: italic;
+  padding-top: 0; }
+
+/* will need to either
+1. find a way to capture the width of the caption in the width of the image or flash
+2. Set some default widths, mby use flickr widths?
+*/
+/* ====== special formatting classes ====== */
+
+.detail {
+  color: #777;
+  font-size: 11px;
+  display: block; }
+
+/* ====== images ====== */
+
+.icon {
+  margin-right: 5px; }

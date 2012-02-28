@@ -1,0 +1,35 @@
+/* simple table @extends data table */
+
+.simpleTable {
+  /*padding: 20px;*/
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* doesn't this break stuff??? ok for win & mac on Safari,
+  FF, chrome, opera. OK on IE6/7/8.   */
+  table {
+    border: 1px solid #AE0345; }
+  th, td {
+    border: 1px solid #4E7178;
+    /*border: 1px solid #AE0345;*/ }
+  thead tr {
+    /*background-color: #fff0f8;*/
+    background-color: #F1F7E2; }
+  th {
+    color: #000;
+    font-weight: bold; } }
+
+/* specification table @extends data table */
+
+.spec {
+  padding: 10px;
+  table {
+    border-top: 1px solid #e2e2e2;
+    border-bottom-color: #fff;
+    border-left: none;
+    border-right: none; }
+  th, td {
+    border: 1px solid #e2e2e2;
+    border-width: 1px 0;
+    padding-left: 0; }
+  .odd, .even {
+    background-color: #fff; } }

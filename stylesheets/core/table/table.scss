@@ -1,0 +1,79 @@
+/** 
+ * Data Table 
+ * Allows you to align various table cells so that the
+ * alignment class can be placed on either the table, table row, or table cell
+ * Cell takes precedence over table row and table
+ * Table row takes precedence over table
+ */
+
+/*data apply to the container of the table but not the table itself
+the reason is that we want to apply position:relative to the container of the table,
+to achieve flexible positioning for the table. You can add an additional div to wrap
+the table, or apply this to an existing container
+*/
+
+.data {
+  position: relative;
+  zoom: 1;
+  vertical-align: top;
+  /*non-inheritable*/
+  text-align: left;
+  /*inheritable*/
+  /*border-right:solid 1px transparent;*/
+  /* border fixes a FF2 bug which causes the data table to overlay its borders*/
+  table {
+    width: 100%;
+    /*this speed up the rendering of the table*/
+    table-layout: fixed; }
+  th, td {
+    padding: 3px 10px; } }
+
+th, td {
+  /*vertical-align:top;*/ }
+
+/* horizontal alignment helper class*/
+/*center*/
+
+.txtC {
+  text-align: center; }
+
+table {
+  .txtC, tr .txtC {
+    text-align: center; } }
+
+.txtL {
+  text-align: left; }
+
+table {
+  .txtL, tr .txtL {
+    text-align: left; } }
+
+.txtR {
+  text-align: right; }
+
+table {
+  .txtR, tr .txtR {
+    text-align: right; } }
+
+/* vertical alignment */
+
+.txtT {
+  vertical-align: top; }
+
+table {
+  .txtT, tr .txtT {
+    vertical-align: top; } }
+
+.txtB {
+  vertical-align: bottom; }
+
+table {
+  .txtB, tr .txtB {
+    vertical-align: bottom; } }
+
+.txtM {
+  vertical-align: middle; }
+
+table {
+  .txtM, tr .txtM {
+    vertical-align: middle; } }
