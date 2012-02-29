@@ -1,12 +1,18 @@
 /* plugins */
-@import url("breadcrumb/breadcrumb.css");
+@import "breadcrumb/breadcrumb";
+@include "oocss-plugins";
 
-@import url("tabs/tabs.css");
+@import "tabs/tabs";
+@include "oocss-plugins";
 
-@import url("talk/talk.css");
+@import "talk/talk";
+@include "oocss-plugins";
 
-@import url("talk/talk_skins.css");
+@import "talk/talk_skins";
+@include "oocss-plugins";
 
-@import url("color/color.css");
+@import "color/color";
+@include "oocss-plugins";
 
-@import url("color/color_skins.css");
+@import "color/color_skins";
+@include "oocss-plugins";

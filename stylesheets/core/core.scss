@@ -6,30 +6,36 @@ and font-wegiht to normal, reset input, textarea, select font-size to normal tex
 
 the fonts try to normalize back the font
 */
-@import url("libraries.css");
+@import "libraries";
+@include "oocss-core";
 
 /*template.css is for page level layout purpose*/
 /*if I could, I would rename it to layout.css*/
-@import url("template/template.css");
+@import "template/template";
+@include "oocss-core";
 
 /*@import url("template/template_debug.css");*/
 
 /*grid is for horizontal partition */
-@import url("grid/grids.css");
+@import "grid/grids";
+@include "oocss-core";
 
 /*@import url("grid/grids_debug.css");*/
 
 /*module is highly reusable pattern to host content, it act as
 content container
 */
-@import url("module/mod.css");
+@import "module/mod";
+@include "oocss-core";
 
-@import url("module/mod_skins.css");
+@import "module/mod_skins";
+@include "oocss-core";
 
 /*@import url("module/mod_debug.css");*/
 
 /*media is for repeatable pattern, left is a image, right is text*/
-@import url("media/media.css");
+@import "media/media";
+@include "oocss-core";
 
 /*@import url("media/media_debug.css");*/
 
@@ -39,11 +45,13 @@ content container
 .important a,  a:lvha(link(unvisisted), visited, hover, active, ol.simpleList, cite, .callout,  )
 if we want to change style, we should change it there
 */
-@import url("content.css");
+@import "content";
+@include "oocss-core";
 
 /*heading is was part of content.css, not separated to a file, it control the heading's font and color
 but the space of heading is not specified in this file, but in the space.css*/
-@import url("heading/heading.css");
+@import "heading/heading";
+@include "oocss-core";
 
 /*normal element's space, such as h1-h6, ul, ol, dl, p, blockquote, media,.., it also
 include some helper classes, such as ptn, meaning padding top none,
@@ -51,13 +59,18 @@ p:padding, m:margine
 a:all, t:top, r:right, b:bottom, l:left, h:horizontal, v:vertical
 s:small, m:medium, l:large, n:none
 */
-@import url("spacing/space.css");
+@import "spacing/space";
+@include "oocss-core";
 
-@import url("position/position.css");
+@import "position/position";
+@include "oocss-core";
 
-@import url("table/table.css");
+@import "table/table";
+@include "oocss-core";
 
-@import url("table/table_skins.css");
+@import "table/table_skins";
+@include "oocss-core";
 
 /*@import url("table/table_debug.css");*/
-@import url("form/form.css");
+@import "form/form";
+@include "oocss-core";
