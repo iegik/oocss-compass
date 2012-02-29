@@ -1,3 +1,5 @@
-@import url("core/core.css");
+@import "core/core";
+@include "oocss-core";
 
-@import url("plugins/plugins.css");
+@import "plugins/plugins";
+@include "oocss-plugins";
