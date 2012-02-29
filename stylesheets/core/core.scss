@@ -7,37 +7,31 @@ and font-wegiht to normal, reset input, textarea, select font-size to normal tex
 the fonts try to normalize back the font
 */
 @import "libraries";
-@include "oocss-libraries";
 
 /*template.css is for page level layout purpose*/
 /*if I could, I would rename it to layout.css*/
 @import "template/template";
-@include "oocss-template";
 
-/*@import url("template/template_debug.css");*/
+@import "template/template_debug";
 
 /*grid is for horizontal partition */
 @import "grid/grids";
-@include "oocss-grids";
 
-/*@import url("grid/grids_debug.css");*/
+@import "grid/grids_debug";
 
 /*module is highly reusable pattern to host content, it act as
 content container
 */
 @import "module/mod";
-@include "oocss-mod";
 
 @import "module/mod_skins";
-@include "oocss-mod_skins";
 
-/*@import url("module/mod_debug.css");*/
+@import "module/mod_debug";
 
 /*media is for repeatable pattern, left is a image, right is text*/
 @import "media/media";
-@include "oocss-media";
 
-/*@import url("media/media_debug.css");*/
+@import "media/media_debug";
 
 /*the following is all about content*/
 
@@ -46,12 +40,10 @@ content container
 if we want to change style, we should change it there
 */
 @import "content";
-@include "oocss-content";
 
 /*heading is was part of content.css, not separated to a file, it control the heading's font and color
 but the space of heading is not specified in this file, but in the space.css*/
 @import "heading/heading";
-@include "oocss-heading";
 
 /*normal element's space, such as h1-h6, ul, ol, dl, p, blockquote, media,.., it also
 include some helper classes, such as ptn, meaning padding top none,
@@ -60,17 +52,13 @@ a:all, t:top, r:right, b:bottom, l:left, h:horizontal, v:vertical
 s:small, m:medium, l:large, n:none
 */
 @import "spacing/space";
-@include "oocss-space";
 
 @import "position/position";
-@include "oocss-position";
 
 @import "table/table";
-@include "oocss-table";
 
 @import "table/table_skins";
-@include "oocss-table_skins";
 
-/*@import url("table/table_debug.css");*/
+@import "table/table_debug";
+
 @import "form/form";
-@include "oocss-form";

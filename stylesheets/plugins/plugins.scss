@@ -1,18 +1,16 @@
 /* plugins */
 @import "breadcrumb/breadcrumb";
-@include "oocss-plugins";
-
-@import "tabs/tabs";
-@include "oocss-plugins";
-
-@import "talk/talk";
-@include "oocss-plugins";
-
-@import "talk/talk_skins";
-@include "oocss-plugins";
 
 @import "color/color";
-@include "oocss-plugins";
 
 @import "color/color_skins";
-@include "oocss-plugins";
+
+@import "grids6/grids6";
+
+@import "grids7/grids7";
+
+@import "tabs/tabs";
+
+@import "talk/talk";
+
+@import "talk/talk_skins";

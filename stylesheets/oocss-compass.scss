@@ -1,0 +1,49 @@
+/** oocss-compass
+ * usage:
+ * @include oocss-core;
+ * @include oocss-plugins;
+ */
+@import "core/core";
+
+@mixins oocss-core{
+  @include oocss-libraries;
+  @include oocss-template;
+  @include oocss-grids;
+  @include oocss-mod;
+  @include oocss-media;
+  @include oocss-content;
+  @include oocss-heading;
+  @include oocss-space;
+  @include oocss-position;
+  @include oocss-table;
+  @include oocss-form;
+}
+
+@mixins oocss-core_debug{
+  @include oocss-template_debug;
+  @include oocss-grids_debug;
+  @include oocss-mod_debug;
+  @include oocss-media_debug;
+  @include oocss-table_debug;
+}
+
+@mixins oocss-core_skins{
+  @include oocss-mod_skins;
+  @include oocss-table_skins;
+}
+
+@import "plugins/plugins";
+
+@mixins oocss-plugins{
+  @include oocss-breadcrumb;
+  @include oocss-color;
+  @include oocss-grids6;
+  @include oocss-grids7;
+  @include oocss-tabs;
+  @include oocss-talk;
+}
+
+@mixins oocss-plugins_skins{
+  @include oocss-color_skins;
+  @include oocss-talk_skins;
+}
