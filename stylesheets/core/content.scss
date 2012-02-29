@@ -1,3 +1,4 @@
+@mixin oocss-content{
 body {
   font-family: "Myriad Pro", "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -109,3 +110,4 @@ cite {
 
 .icon {
   margin-right: 5px; }
+}

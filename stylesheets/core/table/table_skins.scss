@@ -1,3 +1,4 @@
+@mixin oocss-table_skins{
 /* simple table @extends data table */
 
 .simpleTable {
@@ -33,3 +34,4 @@
     padding-left: 0; }
   .odd, .even {
     background-color: #fff; } }
+}

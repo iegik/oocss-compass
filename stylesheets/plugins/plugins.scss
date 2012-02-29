@@ -1,12 +1,16 @@
 /* plugins */
-@import url("breadcrumb/breadcrumb.css");
+@import "breadcrumb/breadcrumb";
 
-@import url("tabs/tabs.css");
+@import "color/color";
 
-@import url("talk/talk.css");
+@import "color/color_skins";
 
-@import url("talk/talk_skins.css");
+@import "grids6/grids6";
 
-@import url("color/color.css");
+@import "grids7/grids7";
 
-@import url("color/color_skins.css");
+@import "tabs/tabs";
+
+@import "talk/talk";
+
+@import "talk/talk_skins";

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+@mixin oocss-mod-skins{
+=======
+@mixin oocss-mod_skins{
+>>>>>>> d9dd88882dec180896a90b90d910f2468bb42f50
 /* **************** BLOCK SKINS ***************** */
 /* ====== Contour blocks ====== */
 /* remove background-image:" to default to square corners for IE */
@@ -396,3 +401,4 @@
     font-size: 100%;
     color: #fff;
     padding: 0; } }
+}

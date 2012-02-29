@@ -1,3 +1,4 @@
+@mixin oocss-color_skins{
 .skinA {
   .bare {
     color: #f7edd6; }
@@ -17,3 +18,4 @@
     color: #b8c800; }
   .negative {
     color: #ba6d6d; } }
+}

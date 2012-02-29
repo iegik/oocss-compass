@@ -1,3 +1,4 @@
+@mixin oocss-table{
 /** 
  * Data Table 
  * Allows you to align various table cells so that the
@@ -77,3 +78,4 @@ table {
 table {
   .txtM, tr .txtM {
     vertical-align: middle; } }
+}

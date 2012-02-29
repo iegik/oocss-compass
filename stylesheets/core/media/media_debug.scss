@@ -1,3 +1,4 @@
+@mixin oocss-media_debug{
 .media {
   .img {
     img {
@@ -6,3 +7,4 @@
   .imgExt, .bd {
     background-color: rgba(195, 0, 38, 0.3); }
   background-color: rgba(195, 0, 38, 0.3); }
+}
