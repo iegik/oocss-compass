@@ -1,4 +1,5 @@
 /* grids debug */
+@mixin oocss-grids-debug{
 
 .line {
   background-color: #e2e2e2; }
@@ -32,3 +33,4 @@
 
 .size4of5 {
   background-color: magenta; }
+}

@@ -1,3 +1,4 @@
+@mixin oocss-grids-rtl{
 .rtl {
   direction: rtl;
   .unit {
@@ -7,3 +8,4 @@
     _margin-left: -3px;
     _margin-right: 0;
     _left: 0; } }
+}

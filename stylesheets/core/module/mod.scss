@@ -1,3 +1,4 @@
+@mixin oocss-mod{
 /*
 Copyright (c) 2009, Nicole Sullivan. All rights reserved.
 Code licensed under the BSD License:
@@ -140,3 +141,4 @@ b {
     margin-right: -10px;
     _display: inline;
     /*fix double margin bug*/ } }
+}

@@ -1,3 +1,4 @@
+@mixin oocss-mod-skins{
 /* **************** BLOCK SKINS ***************** */
 /* ====== Contour blocks ====== */
 /* remove background-image:" to default to square corners for IE */
@@ -396,3 +397,4 @@
     font-size: 100%;
     color: #fff;
     padding: 0; } }
+}
