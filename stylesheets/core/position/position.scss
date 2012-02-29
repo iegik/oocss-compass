@@ -1,3 +1,4 @@
+@mixin oocss-position{
 /*add some positioning helper class*/
 
 .fly_l {
@@ -48,3 +49,4 @@
 
 .rel {
   position: relative; }
+}

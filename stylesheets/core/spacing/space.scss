@@ -1,3 +1,4 @@
+@mixin oocss-space{
 /** 
  * Spacing classes 
  * Should be used to modify the default spacing between objects (not between nodes of the same object)
@@ -120,3 +121,4 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 
 .mll, .mhl, .mal {
   margin-left: 20px !important; }
+}

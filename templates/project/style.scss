@@ -335,7 +335,8 @@ td {
   padding: 0.2em 0; }
 
 //Import the framework
-@import "oocss";
+@import "compass";
+@import "oocss-compass";
 
 //and import the part you want to use
 @include oocss-grids;

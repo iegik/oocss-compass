@@ -1,3 +1,4 @@
+@mixin oocss-media{
 /* ====== media (requires mod.css) ====== */
 
 .media {
@@ -12,3 +13,4 @@
   .imgExt {
     float: right;
     /*margin-left: 10px;*/ } }
+}

@@ -1,3 +1,4 @@
+@mixin oocss-heading{
 /* ====== Headings ====== */
 /* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
 /*use all percentage unit*/
@@ -54,3 +55,4 @@ additional classes, never via location dependant styling */
   color: #333;
   a {
     color: #333; } }
+}

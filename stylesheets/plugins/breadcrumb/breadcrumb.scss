@@ -1,3 +1,4 @@
+@mixin oocss-breadcrumb{
 .breadcrumb {
   li {
     display: inline;
@@ -9,3 +10,4 @@
       content: ""; } }
   a {
     color: #2c4460 !important; } }
+}

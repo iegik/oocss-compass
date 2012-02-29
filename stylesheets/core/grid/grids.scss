@@ -1,3 +1,4 @@
+@mixin oocss-grids{
 .line, .lastUnit {
   overflow: hidden;
   *overflow: visible;
@@ -45,3 +46,4 @@
   _position: relative;
   _left: -3px;
   _margin-right: -3px; }
+}

@@ -1,3 +1,4 @@
+@mixin oocss-tabs{
 /*
 TODO: Allow % widths of tabs
 TODO: Abstract skin from tabs
@@ -140,3 +141,4 @@ TODO: clean up selector structure - too much variation in rule strength
 .tabs .hd ul li{background-color: yellow;}
 .tabs .hd ul li a{background-color: orange;}
 */
+}
